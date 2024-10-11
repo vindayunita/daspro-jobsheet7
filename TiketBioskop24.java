@@ -10,7 +10,7 @@ public class TiketBioskop24 {
         String jawab = "y";
 
         do {
-            System.out.print("Masukkan jumlah tiket yang dibeli (ketik angka negati untuk keluar): ");
+            System.out.print("Masukkan jumlah tiket yang dibeli (ketik angka negatif untuk keluar): ");
             jumlahTiket = sc.nextInt();
             sc.nextLine();
 
